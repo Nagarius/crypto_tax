@@ -20,7 +20,7 @@ pd.options.mode.chained_assignment = None  # default='warn'
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-    df_transactions = pd.read_csv('S20-22.csv')
+    df_transactions = pd.read_csv('S20-21.csv')
     # df_transactions = pd.read_csv('20_21 - Copy.csv')
     currency_conversions = pd.read_csv('USD_AUD Historical Data.csv')
 
